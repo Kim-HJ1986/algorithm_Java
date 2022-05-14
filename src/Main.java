@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        Solution8 sol = new Solution8();
-        int[] arr = {1,2,3,4};
-        System.out.println(sol.solution(arr));
+        Solution13 sol = new Solution13();
+        int[] arr = {-4, -8};
+        System.out.println(sol.solution(5, 24));
     }
 }
