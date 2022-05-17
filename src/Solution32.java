@@ -15,10 +15,10 @@ class Solution32 {
         }
         Collections.sort(ans_AL);
         // 배열 선언해서 넣어주기.. ( 배열에서 ArrayList로 변형하는 방법 공부하기)
-        int[] ans_arr = new int[ans_AL.size()];
-        for(int i=0; i< ans_arr.length; i++){
-            ans_arr[i] = ans_AL.get(i);
-        }
-        return ans_arr;
+//        int[] ans_arr = new int[ans_AL.size()];
+//        for(int i=0; i< ans_arr.length; i++){
+//            ans_arr[i] = ans_AL.get(i);
+//        }
+        return ans_AL.stream().mapToInt(i->i).toArray();
     }
 }
